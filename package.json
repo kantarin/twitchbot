@@ -1,0 +1,19 @@
+{
+  "name": "twitchbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ccxt": "^1.50.51",
+    "nodemon": "^2.0.7",
+    "prompts": "^2.4.1",
+    "tmi.js": "^1.8.3"
+  }
+}
